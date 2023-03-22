@@ -1,0 +1,9 @@
+.places__link {
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 424px) {
+  .places__link {
+    padding-left: 16px;
+  }
+}
