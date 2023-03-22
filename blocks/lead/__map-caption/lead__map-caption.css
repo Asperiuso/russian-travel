@@ -8,16 +8,26 @@
   color: #fff;
   margin: 0;
   padding-top: 8px;
+  padding-bottom: 92px;
 }
 
-@media screen and (min-width: 425px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .lead__map-caption {
     padding-left: 24px;
+    padding-bottom: 88px;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .lead {
+    padding-left: 20px;
+    padding-bottom: 75px;
   }
 }
 
 @media screen and (max-width: 424px) {
   .lead__map-caption {
     padding-left: 16px;
+    padding-bottom: 64px;
   }
 }

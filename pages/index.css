@@ -2,6 +2,7 @@
 @import url(../vendor/normalize.css); 
 
 @import url(../blocks/root/root.css); 
+@import url(../blocks/root/__container/root__container.css);
 
 @import url(../blocks/header/header.css); 
 @import url(../blocks/header/__logo/header__logo.css); 
@@ -38,6 +39,7 @@
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__text/cover__text.css);
+@import url(../blocks/cover/__text-min/cover__text-min.css);
 @import url(../blocks/cover/__link/cover__link.css);
 
 @import url(../blocks/footer/footer.css);
