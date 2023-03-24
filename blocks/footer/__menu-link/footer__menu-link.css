@@ -14,9 +14,9 @@
   opacity: 0.8;
 }
 
-@media screen and (max-width: 750px) {
-  .footer__item {
-    font-size: 24px;
-    line-height: 24px;
+@media screen and (max-width: 767px) {
+  .footer__menu-link {
+    font-size: calc(24px - (8 + 8 * 0.7) * ((100vw - 320px) / 768));
+    line-height: calc(24px - (6 + 6 * 0.7) * ((100vw - 320px) / 768));
   }
 }
