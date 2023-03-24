@@ -2,28 +2,21 @@
   text-decoration: none;
   font-style: normal;
   font-weight: normal;
+  color: #fff;
   font-size: 16px;
   line-height: 18px;
-  margin-right: 18px;
-  color: #fff;
+  padding: 0;
+  margin: 0;
+  transition: 0.4s ease-in-out;
 }
 
 .footer__menu-link:hover {
   opacity: 0.8;
 }
 
-.footer__menu-link:last-child {
-  margin-right: 0px;
-}
-
-@media screen and (max-width: 767px) {
-  .footer__menu-link {
+@media screen and (max-width: 750px) {
+  .footer__item {
     font-size: 24px;
     line-height: 24px;
-    padding-bottom: 32px;
-  }
-
-  .footer__menu-link:last-child {
-    padding-bottom: 0px;
   }
 }

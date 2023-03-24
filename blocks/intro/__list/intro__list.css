@@ -4,13 +4,7 @@
   font-size: 12px;
   line-height: 18px;
   color: #fff;
-  white-space: pre-line;
+  list-style-type: none;
   margin: 0;
   padding: 0;
-}
-
-@media screen and (max-width: 424px) {
-  .intro__list {
-    width: 90%;
-  }
 }

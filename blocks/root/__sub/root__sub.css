@@ -1,0 +1,9 @@
+.root__sub {
+  padding-top: 32px;
+}
+
+@media screen and (max-width: 767px) {
+  .root__sub {
+    padding-top: calc(16px + (16 + 16 * 0, 7) * ((100vw - 320px) / 768));
+  }
+}
