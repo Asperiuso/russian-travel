@@ -7,6 +7,7 @@
 ## Стек технологий
 HTML, CSS, БЭМ
 
+ссылка на GitHub Pages
 https://asperiuso.github.io/
 
 ## Планы по доработке проекта
