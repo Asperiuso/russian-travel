@@ -10,7 +10,7 @@
   }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 900px) {
   .root__container {
     width: 93.75%;
   }
